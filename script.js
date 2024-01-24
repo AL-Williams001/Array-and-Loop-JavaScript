@@ -61,21 +61,25 @@ console.log(myArr.flat());
 // How to loop an array
 const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
 
+//For method ex below:(Traditional)
 // for (let i = 0; i <= cats.length - 1; i++) {
 //   console.log(cats[i]);
 // }
 
+// For of loop  ex below:
 // for (const cat of cats) {
 //   console.log(cat);
 // }
 
+// ForEach  ex below:
 // cats.forEach((cat) => {
 //   console.log(cat);
 //  });
 
-// Map method and making them uppercase
+// Map method and making them uppercase ex below:
 // const catsToUpperCase = cats.map((cat) => cat.toUpperCase());
 // console.log(catsToUpperCase);
 
+// filter method  ex below:
 const filtered = cats.filter((cat) => cat.startsWith("L"));
 console.log(filtered);
